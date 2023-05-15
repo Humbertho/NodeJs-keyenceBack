@@ -1,0 +1,24 @@
+{
+  "name": "keyence",
+  "version": "1.0.0",
+  "description": "proyecto crud de lectura de archivo excel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "keyence"
+  ],
+  "author": "Humberto Gil Lopez",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.31.1"
+  }
+}
